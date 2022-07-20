@@ -24,9 +24,6 @@
 
         </div>
         <div class="app-auth-container">
-            <div class="logo">
-                <a style="background: url(<?= _assets('images/sameitdeveloper.png') ?>) no-repeat; height: 60px" href="#">SAMEITDEVELOPER</a>
-            </div>
             <p class="auth-description">Please sign-in to your account and continue to the dashboard.</p>
             <?= _alert() ?>
             <form method="post">
@@ -36,11 +33,6 @@
 
                     <label for="signInPassword" class="form-label">Password</label>
                     <input type="password" name="password" class="form-control" id="signInPassword" aria-describedby="signInPassword" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
-                    <br>
-                    <input class="form-check-input" name="remember" type="checkbox" checked>
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Remember Me
-                    </label>
                 </div>
                 <div class="auth-submit">
                     <button type="submit" class="btn btn-primary">Login</button>

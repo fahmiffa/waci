@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAMEITDEVELOPER :: <?= $title ?></title>
+    <title><?= $title ?></title>
     <link rel="icon" href="<?= _assets('images/favicon.png') ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -147,40 +147,6 @@
                     </div>
                 </div>
 
-            </div>
-             <!-- youtobe mitra -->
-            <div class="app-content">
-                <div class="content-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <div class="card widget widget-stats">
-                                    <div class="card-body">
-                                <h1>Mitra Kerja sama bagi Hasil, List Karya</h1>
-                                <h5>Aplikasi Absensi area lokasi berbasis android</h5>
-                                <h5>Aplikasi Absensi RFID</h5>
-                                <h5>Aplikasi Absensi Barcode</h5>
-                                <h5>Aplikasi Cashier desktop, android</h5>
-                                <h5>Aplikasi Distributor desktop, android</h5>
-                                <h5>Aplikasi Grosir Ecer</h5>
-                                <h5>Aplikasi Market Place</h5>
-                                <h5>Aplikasi Skripsi, Perusahaan dll</h5>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <div class="card widget widget-stats">
-                                    <div class="card-body">
-                                    <h5>Tutorial instalasi belum</h5>
-                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/VsAdJEc-w0Q">
-                                    </iframe> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
             </div>
         </div>
     </div>

@@ -1,11 +1,10 @@
 <div class="app-sidebar">
     <div class="logo">
-        <a href="#" class="logo-icon" style="background: url(<?= _assets('images/sameitdeveloper.png') ?>) no-repeat; background-position: center center;background-size: 35px;"><span class="logo-text">SAMEITDEVELOPER</span></a>
+        <a href="#" class="logo-icon"><span class="logo-text">DEVELOPER</span></a>
         <div class="sidebar-user-switcher user-activity-online">
-            <a href="#">
-                <img src="<?= _assets() ?>/images/avatars/avatar.gif">
+            <a href="#">                
                 <span class="activity-indicator"></span>
-                <span class="user-info-text"><?= $user->username ?><br><span class="user-state-info">SAMEITDEVELOPER</span></span>
+                <span class="user-info-text"><?= $user->username ?><br><span class="user-state-info">DEVELOPER</span></span>
             </a>
         </div>
     </div>
